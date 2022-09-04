@@ -59,3 +59,14 @@ jobs:
 
       - name: Docker Push - frontend
         run: docker push $DOCKER_USER/$REPO_FRONTEND
+
+  pull-to-production:
+    needs: deploy-to-docker
+    runs-on: self-hosted
+    steps:
+      - name: Pull Docker Containers Into Production Environment
+        run: |
+          sudo su - craig
+          sudo rm -R ~/actions-runner/_work
+          docker-compose pull
+      
