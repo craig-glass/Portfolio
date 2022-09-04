@@ -6,10 +6,6 @@
   text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 .flexybox {
   display: flex;
   justify-content: space-around;
@@ -36,6 +32,26 @@
   justify-items: center;
 }
 
+.gridbar {
+  display: grid;
+  width: 70%;
+  margin-left: 10%;
+  grid-auto-columns: 1fr;
+  row-gap: 20px;
+  list-style: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.gridbaritem {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgreen;
+  border-radius: 10px;
+  padding: 5px;
+}
+
 .grid-item {
   border: 2px solid green;
   width: 150px;
@@ -55,20 +71,7 @@
   text-decoration: none;
 }
 
-.imageSpin {
-  animation: App-logo-spin 10s infinite;
-}
-
 .squashSides {
   padding-left: 10%;
   padding-right: 10%;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

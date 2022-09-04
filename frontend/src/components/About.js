@@ -6,7 +6,7 @@ export default function About(){
         <section id="about">
             <div>
                 <div>
-                    <h1 className="App-link">
+                    <h1 style={{ color: "lightgreen"}}>
                         Hi, I'm Craig.
                         <br></br>
                     </h1>

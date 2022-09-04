@@ -1,16 +1,19 @@
 import React from "react";
+import { skills } from "../data/projectsData";
 
 export default function Skills() {
     return (
         <div>
             <h1>Skills</h1>
-            <div className="flexybox">
-                <h2>Python</h2>
-                <h2>Java</h2>
-                <h2>Javascript</h2>
-                <h2>C#</h2>
-            </div>
-            <div className="flexybox">
+
+            <ul className="gridbar">
+                {skills.map((skill) => (
+                    <>                        
+                        <li className="gridbaritem" style={{gridColumn: "span " + skill.level}}><span>{skill.title}</span><span>{skill.level}</span></li>
+                    </>
+                ))}                
+            </ul>
+            {/* <div className="flexybox">
                 <h2>DigitalOcean</h2>
                 <h2>AWS</h2>
                 <h2>Heroku</h2>
@@ -44,7 +47,7 @@ export default function Skills() {
                 <h2>Software Development LifeCycle</h2>
                 <h2>Agile Development</h2>
                 <h2>Networking</h2>
-            </div>
+            </div> */}
         </div>
 
     )
