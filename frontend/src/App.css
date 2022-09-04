@@ -40,6 +40,24 @@
   padding: 10px;
 }
 
+.mainpage {
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 20px;
+  justify-items: center;
+}
+
+.grid-item {
+  border: 2px solid green;
+  width: 200px;
+  padding: 10px;
+}
+
 .navbarText {
   color: white;
 }

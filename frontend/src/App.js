@@ -14,14 +14,18 @@ function App() {
     <main className='App'>
       <Router>
         <Navbar />
-        <About />
-        <Routes>
-          <Route path="/skills" element={<Skills />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
-        </Routes>
-      </Router>
+        <div className='mainpage'>
+          <About />
+          <Routes>
+            <Route path="/skills" element={<Skills />}></Route>
+            <Route path="/contact" element={<Contact />}></Route>
+            <Route path="/projects" element={<Projects />}></Route>
+          </Routes>
+        </div>
 
+      </Router>
+      <br></br>
+      <br></br>
     </main>
   );
 }
