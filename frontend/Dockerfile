@@ -1,6 +1,6 @@
 FROM node:16-alpine
 WORKDIR /react
-ENV PATH /react/node_modules/.bin:%PATH
+ENV PATH /react/node_modules/.bin:$PATH
 COPY package.json ./
 COPY package-lock.json ./
 RUN npm install --silent
