@@ -19,6 +19,7 @@
 
 .navbar {
   background-color: navy;
+  height: 30px;
   padding: 10px;
   position: fixed;
 }
@@ -37,12 +38,17 @@
 
 .grid-item {
   border: 2px solid green;
-  width: 100px;
+  width: 150px;
   padding: 10px;
 }
 
 .navbarText {
   color: white;
+}
+
+.navbarText:hover {
+  color: greenyellow;
+  font-size: 1.03em;
 }
 
 .removeUnderline {

@@ -14,6 +14,8 @@ function App() {
     <main className='App'>
       <Router>
         <Navbar />
+        <br></br>
+        <br></br>
         <div className='mainpage'>
           <About />
           <Routes>
