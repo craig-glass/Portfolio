@@ -68,5 +68,5 @@ jobs:
         run: |
           sudo su - craig
           sudo rm -R ~/actions-runner/_work
-          docker pull $DOCKER_USER/$REPO_FRONTEND
+          sudo docker pull $DOCKER_USER/$REPO_FRONTEND
       
