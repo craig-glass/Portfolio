@@ -68,5 +68,5 @@ jobs:
         run: |
           sudo su - craig
           sudo rm -R ~/actions-runner/_work
-          docker-compose pull
+          docker pull
       
