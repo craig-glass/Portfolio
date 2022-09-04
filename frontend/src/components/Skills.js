@@ -9,7 +9,6 @@ export default function Skills() {
                 <h2>Java</h2>
                 <h2>Javascript</h2>
                 <h2>C#</h2>
-                <h2>C</h2>
             </div>
             <div className="flexybox">
                 <h2>DigitalOcean</h2>
