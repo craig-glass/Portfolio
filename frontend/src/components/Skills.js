@@ -8,10 +8,13 @@ export default function Skills() {
 
             <ul className="gridbar">
                 {skills.map((skill) => (
-                    <>                        
-                        <li className="gridbaritem" style={{gridColumn: "span " + skill.level}}><span>{skill.title}</span><span>{skill.level}</span></li>
+                    <>
+                        <li className="gridbaritem"
+                            style={{ gridColumn: "span " + skill.level }}>
+                            <span className="colorspan">{skill.title}</span><span className="colorspan">{skill.level}</span>
+                        </li>
                     </>
-                ))}                
+                ))}
             </ul>
             {/* <div className="flexybox">
                 <h2>DigitalOcean</h2>

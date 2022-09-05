@@ -52,6 +52,14 @@
   padding: 5px;
 }
 
+.colorspan {
+  background-color: greenyellow;
+  color: navy;
+  border-radius: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
 .grid-item {
   border: 2px solid green;
   width: 150px;

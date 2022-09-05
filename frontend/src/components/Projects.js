@@ -10,6 +10,7 @@ export default function Projects() {
                     <>
                         <div className="grid-item">
                             <h2>{project.title}</h2>
+                            <img alt="hero" src={project.image} width="100%" height="25%"></img>
                             <h4>{project.subtitle}</h4>
                             <p>{project.description}</p>
                             <a href={project.link}>Click here to see project</a>

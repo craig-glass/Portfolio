@@ -1,5 +1,5 @@
 import React from "react";
-import Aliens from '../images/Aliens.jpg';
+import Alien from '../images/Aliens.jpg';
 
 export default function About(){
     return (
@@ -20,7 +20,7 @@ export default function About(){
                 </div>
                 <div>
                     <br></br>
-                    <img alt="hero" src={Aliens} width={200} height={200}></img>
+                    <img alt="hero" src={Alien} width={200} height={200}></img>
                 </div>
             </div>
         </section>
