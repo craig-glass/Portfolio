@@ -1,4 +1,6 @@
-
+html {
+  overflow-x: hidden;
+}
 .App {
   margin: 0;
   width: 100vw;
@@ -26,7 +28,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 10px;
   row-gap: 20px;
   justify-items: center;
@@ -35,7 +37,6 @@
 .gridbar {
   display: grid;
   width: 70%;
-  margin-left: 10%;
   grid-auto-columns: 1fr;
   row-gap: 20px;
   list-style: none;
@@ -62,7 +63,9 @@
 
 .grid-item {
   border: 2px solid green;
-  width: 150px;
+  border-radius: 10px;
+  width: 200px;
+  height: 400px;
   padding: 10px;
 }
 
@@ -82,4 +85,8 @@
 .squashSides {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+img {
+  border-radius: 10px;
 }

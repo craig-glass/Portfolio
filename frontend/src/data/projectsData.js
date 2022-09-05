@@ -1,6 +1,8 @@
 import NUScript from '../images/NUScript.jpg';
 import Easymeals from '../images/Easymeals.jpg';
 import Epic from '../images/Epic.jpg';
+import IGFit from '../images/igfit.jpg';
+import GODesigner from '../images/GODesigner.jpg';
 
 export const projects = [
     {
@@ -23,6 +25,20 @@ export const projects = [
         description: "An E-Learning platform with content management system",
         link: "http://e-learning-epic.herokuapp.com/",
         image: Epic
+    },
+    {
+        title: "IGFitness",
+        subtitle: "Python, Postgres, Heroku",
+        description: "Website for local gym built with flask",
+        link: "https://igfitness.cglass1982.repl.co/",
+        image: IGFit
+    },
+    {
+        title: "GO Designer",
+        subtitle: "Photoshop, HTML, CSS, Javascript",
+        description: "Designer website built using photoshop",
+        link: "https://goDesigner.cglass1982.repl.co",
+        image: GODesigner
     }
 ]
 
