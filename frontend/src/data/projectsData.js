@@ -1,106 +1,115 @@
-import NUScript from '../images/NUScript.jpg';
-import Easymeals from '../images/Easymeals.jpg';
-import Epic from '../images/Epic.jpg';
-import IGFit from '../images/igfit.jpg';
-import GODesigner from '../images/GODesigner.jpg';
+import NUScript from "../images/NUScript.jpg";
+import Easymeals from "../images/Easymeals.jpg";
+import Epic from "../images/Epic.jpg";
+import IGFit from "../images/igfit.jpg";
+import GODesigner from "../images/GODesigner.jpg";
 
 export const projects = [
-    {
-        title: "Easymeals",
-        subtitle: "Django, React, Postgres, Nginx, Docker, CI/CD, Digitalocean",
-        description: "Subscription based meal delivery service built with CI/CD pipeline and deployed on Digitalocean",
-        link: "https://github.com/craig-glass/easymeals",
-        image: Easymeals
-    },
-    {
-        title: "NUScript",
-        subtitle: "Django, React, Postgres, Heroku",
-        description: "Added a feature using websockets to an existing web application implementing both frontend and backend",
-        link: "http://nuscript.herokuapp.com/login",
-        image: NUScript
-    },
-    {
-        title: "E-Learning",
-        subtitle: "Django, Javascript, Ajax, Heroku",
-        description: "An E-Learning platform with content management system",
-        link: "http://e-learning-epic.herokuapp.com/",
-        image: Epic
-    },
-    {
-        title: "IGFitness",
-        subtitle: "Python, Postgres, Heroku",
-        description: "Website for local gym built with flask",
-        link: "https://igfitness.cglass1982.repl.co/",
-        image: IGFit
-    },
-    {
-        title: "GO Designer",
-        subtitle: "Photoshop, HTML, CSS, Javascript",
-        description: "Designer website built using photoshop",
-        link: "https://goDesigner.cglass1982.repl.co",
-        image: GODesigner
-    }
-]
+  {
+    title: "Easymeals",
+    subtitle: "Django, React, Postgres, Nginx, Docker, CI/CD, Digitalocean",
+    description:
+      "Subscription based meal delivery service built with CI/CD pipeline and deployed on Digitalocean",
+    link: "https://github.com/craig-glass/easymeals",
+    image: Easymeals,
+  },
+  {
+    title: "NUScript",
+    subtitle: "Django, React, Postgres, Heroku",
+    description:
+      "Added a feature using websockets to an existing web application implementing both frontend and backend",
+    link: "http://nuscript.herokuapp.com/login",
+    image: NUScript,
+  },
+  {
+    title: "E-Learning",
+    subtitle: "Django, Javascript, Ajax, Heroku",
+    description: "An E-Learning platform with content management system",
+    link: "http://e-learning-epic.herokuapp.com/",
+    image: Epic,
+  },
+  {
+    title: "IGFitness",
+    subtitle: "Python, Postgres, Heroku",
+    description: "Website for local gym built with flask",
+    link: "https://igfitness.cglass1982.repl.co/",
+    image: IGFit,
+  },
+  {
+    title: "GO Designer",
+    subtitle: "Photoshop, HTML, CSS, Javascript",
+    description: "Designer website built using photoshop",
+    link: "https://goDesigner.cglass1982.repl.co",
+    image: GODesigner,
+  },
+  {
+    title: "Sixth Project",
+    subtitle: "Another one",
+    description: "Space holder",
+    link: "#",
+    image: GODesigner,
+  },
+];
 
 export const skills = [
-    {
-        title: "Python",
-        level: 5
-    },
-    {
-        title: "Java",
-        level: 8
-    },
-    {
-        title: "Javascript",
-        level: 3
-    },
-    {
-        title: "C#",
-        level: 6
-    },
-    {
-        title: "Html",
-        level: 7
-    },
-    {
-        title: "Css",
-        level: 5
-    },
-    {
-        title: "Docker",
-        level: 8
-    },
-    {
-        title: "Linux Administration",
-        level: 7
-    },
-    {
-        title: "Git and Git workflows",
-        level: 8
-    },
-    {
-        title: "Nginx",
-        level: 5
-    },
-    {
-        title: "Apache",
-        level: 5
-    },
-    {
-        title: "Github Actions",
-        level: 6
-    },
-    {
-        title: "CI/CD Pipelines",
-        level: 7
-    },
-    {
-        title: "Django",
-        level: 6
-    },
-    {
-        title: "React",
-        level: 6
-    }
-]
+  {
+    title: "Python",
+    level: 5,
+  },
+  {
+    title: "Java",
+    level: 8,
+  },
+  {
+    title: "Javascript",
+    level: 3,
+  },
+  {
+    title: "C#",
+    level: 6,
+  },
+  {
+    title: "Html",
+    level: 7,
+  },
+  {
+    title: "Css",
+    level: 5,
+  },
+  {
+    title: "Docker",
+    level: 8,
+  },
+  {
+    title: "Linux Administration",
+    level: 7,
+  },
+  {
+    title: "Git and Git workflows",
+    level: 8,
+  },
+  {
+    title: "Nginx",
+    level: 5,
+  },
+  {
+    title: "Apache",
+    level: 5,
+  },
+  {
+    title: "Github Actions",
+    level: 6,
+  },
+  {
+    title: "CI/CD Pipelines",
+    level: 7,
+  },
+  {
+    title: "Django",
+    level: 6,
+  },
+  {
+    title: "React",
+    level: 6,
+  },
+];
