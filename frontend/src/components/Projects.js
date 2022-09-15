@@ -1,6 +1,5 @@
 import { projects } from "../data/projectsData";
 import { motion } from "framer-motion";
-import { useIsSmall } from "../hooks/utils";
 
 export default function Projects() {
   const isSmall = window.screen.width < 500;
