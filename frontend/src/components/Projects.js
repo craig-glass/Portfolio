@@ -1,7 +1,34 @@
 import { projects } from "../data/projectsData";
 import { motion } from "framer-motion";
+import { useIsSmall } from "../hooks/utils";
 
 export default function Projects() {
+  const isSmall = window.screen.width < 500;
+  console.log("isSmall = ", isSmall, window.screen.width);
+  const variants = isSmall
+    ? {
+        whileInView: {
+          scale: 2,
+          borderRadius: ["50%", "10%"],
+          transition: { type: "spring", bounce: 0.8 },
+        },
+        whileHover: {
+          scale: 2,
+          borderRadius: ["50%", "10%"],
+          transition: { type: "spring", bounce: 0.8 },
+        },
+      }
+    : {
+        whileInView: {
+          scale: 1,
+        },
+        whileHover: {
+          scale: 2,
+          borderRadius: ["50%", "10%"],
+          transition: { type: "spring", bounce: 0.8 },
+        },
+      };
+
   return (
     <div>
       <h1>Projects</h1>
@@ -14,16 +41,9 @@ export default function Projects() {
             >
               <h2>{project.title}</h2>
               <motion.img
-                whileHover={{
-                  scale: 2,
-                  borderRadius: ["50%", "10%"],
-                  transition: { type: "spring", bounce: 0.8 },
-                }}
-                whileTap={{
-                  scale: 2,
-                  borderRadius: ["50%", "10%"],
-                  transition: { type: "spring", bounce: 0.8 },
-                }}
+                variants={variants}
+                whileHover="whileHover"
+                whileInView="whileInView"
                 alt="hero"
                 src={project.image}
                 width="100%"
