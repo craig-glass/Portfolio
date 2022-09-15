@@ -16,7 +16,7 @@ html {
 }
 
 .navbar {
-  background-color: navy;
+  background-color: #0b3c5d;
   height: 30px;
   padding: 10px;
   position: fixed;
@@ -40,7 +40,7 @@ html {
   grid-auto-columns: 1fr;
   row-gap: 20px;
   list-style: none;
-  border: 2px solid black;
+  border: 2px solid #1d2731;
   border-radius: 10px;
   padding: 10px;
 }
@@ -48,13 +48,13 @@ html {
 .gridbaritem {
   display: flex;
   justify-content: space-between;
-  background-color: lightgreen;
+  background-color: #328cc1;
   border-radius: 10px;
   padding: 5px;
 }
 
 .colorspan {
-  background-color: greenyellow;
+  background-color: #d9b310;
   color: navy;
   border-radius: 5px;
   padding-left: 2px;
@@ -62,7 +62,7 @@ html {
 }
 
 .grid-item {
-  border: 2px solid green;
+  border: 2px solid #328cc1;
   border-radius: 10px;
   width: 200px;
   height: 400px;
@@ -74,7 +74,7 @@ html {
 }
 
 .navbarText:hover {
-  color: greenyellow;
+  color: #d9b310;
   font-size: 1.03em;
 }
 

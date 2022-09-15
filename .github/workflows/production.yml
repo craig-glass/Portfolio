@@ -70,6 +70,6 @@ jobs:
           sudo rm -R ~/actions-runner/_work
           cd ~/actions-runner/portfolio
           sudo docker-compose pull
-          sudo docker-compose up -d
+          sudo docker-compose up
           sudo docker image prune -a
           sudo docker container prune       
