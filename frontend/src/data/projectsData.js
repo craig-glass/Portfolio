@@ -1,5 +1,4 @@
 import NUScript from "../images/NUScript.jpg";
-import Easymeals from "../images/Easymeals.jpg";
 import Epic from "../images/Epic.jpg";
 import IGFit from "../images/igfit.jpg";
 import GODesigner from "../images/GODesigner.jpg";
