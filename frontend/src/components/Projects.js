@@ -37,18 +37,20 @@ export default function Projects() {
             //   className="grid-item"
             >
               <h2>{project.title}</h2>
-              <a href={project.link}>
-                <motion.img
-                  variants={variants}
-                  whileHover="whileHover"
-                  whileInView="whileInView"
-                  alt="hero"
-                  src={project.image}
-                  width="50%"
-                  height="50%"
-                  style={{ borderRadius: "50%" }}
-                ></motion.img>
-              </a>
+              <div style={{ padding: "20%" }}>
+                <a href={project.link}>
+                  <motion.img
+                    variants={variants}
+                    whileHover="whileHover"
+                    whileInView="whileInView"
+                    alt="hero"
+                    src={project.image}
+                    width="100%"
+                    height="100%"
+                    style={{ borderRadius: "50%" }}
+                  ></motion.img>
+                </a>
+              </div>
 
               {/* <h4>{project.subtitle}</h4>
               <p>{project.description}</p>
