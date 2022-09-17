@@ -7,14 +7,12 @@ export default function Projects() {
   const variants = isSmall
     ? {
         whileInView: {
-          scale: 1.2,
+          scale: 1,
           borderRadius: ["50%", "10%"],
           transition: { type: "spring", bounce: 0.8 },
         },
         whileHover: {
-          scale: 1.2,
-          borderRadius: ["50%", "10%"],
-          transition: { type: "spring", bounce: 0.8 },
+          scale: 1,
         },
       }
     : {
