@@ -3,6 +3,7 @@ import Easymeals from "../images/Easymeals.jpg";
 import Epic from "../images/Epic.jpg";
 import IGFit from "../images/igfit.jpg";
 import GODesigner from "../images/GODesigner.jpg";
+import Spaceships from "../images/Spaceships.jpg";
 
 export const projects = [
   {
@@ -43,11 +44,12 @@ export const projects = [
     image: GODesigner,
   },
   {
-    title: "Sixth Project",
-    subtitle: "Another one",
-    description: "Space holder",
-    link: "#",
-    image: GODesigner,
+    title: "Graphics Project",
+    subtitle: "Unity, C#",
+    description:
+      "Graphics project producing features such as day/night cylce, lighting, wind, realistic water, dynamically altering terrain, movement of objects",
+    link: "https://www.youtube.com/watch?v=eVlaGXGsd9I",
+    image: Spaceships,
   },
 ];
 
