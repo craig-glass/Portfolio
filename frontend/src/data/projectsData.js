@@ -4,15 +4,16 @@ import Epic from "../images/Epic.jpg";
 import IGFit from "../images/igfit.jpg";
 import GODesigner from "../images/GODesigner.jpg";
 import Spaceships from "../images/Spaceships.jpg";
+import Openwide from "../images/Openwide.jpg";
 
 export const projects = [
   {
-    title: "Easymeals",
-    subtitle: "Django, React, Postgres, Nginx, Docker, CI/CD, Digitalocean",
+    title: "Open Wide What's Inside? - 2D Game",
+    subtitle: "Unity, C#, Photoshop",
     description:
-      "Subscription based meal delivery service built with CI/CD pipeline and deployed on Digitalocean",
-    link: "https://github.com/craig-glass/easymeals",
-    image: Easymeals,
+      "2D game with a purpose of aiding education for the school of dentistry, Newcastle University",
+    link: "https://simmer.io/@NUDental/open-wide",
+    image: Openwide,
   },
   {
     title: "NUScript",

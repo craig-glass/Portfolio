@@ -20,7 +20,7 @@ export default function Projects() {
           scale: 1,
         },
         whileHover: {
-          scale: 2,
+          scale: 1.5,
           borderRadius: ["50%", "10%"],
           transition: { type: "spring", bounce: 0.8 },
         },
