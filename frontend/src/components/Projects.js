@@ -10,7 +10,7 @@ export default function Projects() {
           scale: 1,
           borderRadius: ["50%", "10%"],
           transition: { type: "spring", bounce: 0.8, delay: 1 },
-          borderShadow: "0px 0px 50px white",
+          borderShadow: "0px 0px 50px #d9b310",
         },
         whileHover: {
           scale: 1,
@@ -23,6 +23,7 @@ export default function Projects() {
         whileHover: {
           scale: 1.5,
           borderRadius: ["50%", "10%"],
+          borderShadow: "0px 0px 50px #328cc1",
           transition: { type: "spring", bounce: 0.8 },
         },
       };
@@ -37,7 +38,7 @@ export default function Projects() {
             <motion.div
             //   className="grid-item"
             >
-              <h2>{project.title}</h2>
+              <h2 style={{ height: "50px" }}>{project.title}</h2>
               <div style={{ padding: "20%" }}>
                 <a href={project.link}>
                   <motion.img

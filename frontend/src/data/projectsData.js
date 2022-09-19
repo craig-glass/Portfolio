@@ -7,7 +7,7 @@ import Openwide from "../images/Openwide.jpg";
 
 export const projects = [
   {
-    title: "Open Wide What's Inside? - 2D Game",
+    title: "Open Wide What's Inside?",
     subtitle: "Unity, C#, Photoshop",
     description:
       "2D game with a purpose of aiding education for the school of dentistry, Newcastle University",
