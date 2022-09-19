@@ -23,9 +23,15 @@ export default function Navbar() {
           animate={isOpen ? "open" : "closed"}
           variants={variants}
         >
-          <Link to="/skills">Skills</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/projects">Projects</Link>
+          <Link to="/skills" onClick={showSidebar}>
+            Skills
+          </Link>
+          <Link to="/contact" onClick={showSidebar}>
+            Contact
+          </Link>
+          <Link to="/projects" onClick={showSidebar}>
+            Projects
+          </Link>
         </motion.header>
       </div>
 

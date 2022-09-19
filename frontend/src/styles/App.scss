@@ -103,9 +103,3 @@ img {
 h1 {
     color: var.$third-color;
 }
-
-@media screen and (max-width: 440px) {
-    .grid-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
