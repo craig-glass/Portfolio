@@ -93,8 +93,8 @@ body {
 
 img {
   border-radius: 10px;
-  -webkit-appearance: none;
   box-shadow: 0px 0px 60px #328cc1;
+  -webkit-appearance: none;
 }
 img:hover {
   box-shadow: 0px 0px 60px #d9b310;

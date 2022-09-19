@@ -1,8 +1,4 @@
-$primary-color: #0b3c5d;
-$secondary-color: #328cc1;
-$third-color: #d9b310;
-$main-text: ivory;
-$main-font: "Helvetica Neue";
+@use 'variables' as var;
 
 @mixin flexy($flexDir: row) {
     display: flex;
@@ -18,7 +14,7 @@ html {
 
 body {
     margin: 0;
-    font-family: $main-font;
+    font-family: var.$main-font;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -34,7 +30,7 @@ body {
 
 .navbar {
     @include flexy(column);
-    background-color: $primary-color;
+    background-color: var.$primary-color;
     height: 100%;
     padding: 10px;
     position: fixed;
@@ -44,7 +40,7 @@ body {
         text-decoration: none;
 
         &:hover {
-            color: $third-color;
+            color: var.$third-color;
             font-size: 1.03em;
         }
     }
@@ -77,21 +73,21 @@ body {
 .gridbaritem {
     display: flex;
     justify-content: space-between;
-    background-color: $secondary-color;
+    background-color: var.$secondary-color;
     border-radius: 10px;
     padding: 5px;
 }
 
 .colorspan {
-    background-color: $third-color;
-    color: $primary-color;
+    background-color: var.$third-color;
+    color: var.$primary-color;
     border-radius: 5px;
     padding-left: 2px;
     padding-right: 2px;
 }
 
 .grid-item {
-    border: 2px solid $secondary-color;
+    border: 2px solid var.$secondary-color;
     border-radius: 10px;
     width: 200px;
     height: 400px;
@@ -105,11 +101,12 @@ body {
 
 img {
     border-radius: 10px;
+    box-shadow: 0px 0px 60px var.$secondary-color;
     -webkit-appearance: none;
-    box-shadow: 0px 0px 60px $secondary-color;
+
 
     &:hover {
-        box-shadow: 0px 0px 60px $third-color;
+        box-shadow: 0px 0px 60px var.$third-color;
     }
 
 }

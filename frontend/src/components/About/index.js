@@ -1,12 +1,13 @@
 import React from "react";
-import Alien from "../images/Aliens.jpg";
+import "./index.css";
+import Alien from "../../images/Aliens.jpg";
 
 export default function About() {
   return (
     <section id="about">
       <div>
         <div>
-          <h1 style={{ color: "#328cc1" }}>
+          <h1>
             Hi, I'm Craig.
             <br></br>
           </h1>
