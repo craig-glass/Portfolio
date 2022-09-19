@@ -23,7 +23,7 @@ export default function Projects() {
           borderShadow: "0px 0px 60px #328cc1",
         },
         whileHover: {
-          scale: 1.5,
+          scale: 1.2,
           borderRadius: ["50%", "10%"],
           transition: { type: "spring", bounce: 0.8 },
         },

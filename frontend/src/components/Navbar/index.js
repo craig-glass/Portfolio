@@ -14,6 +14,7 @@ export default function Navbar() {
   function showSidebar() {
     setIsOpen(!isOpen);
   }
+
   return (
     <>
       <div id="sidebar">
@@ -28,9 +29,9 @@ export default function Navbar() {
         </motion.header>
       </div>
 
-      <a href="#" className="hamburger" onClick={showSidebar}>
+      <button className="hamburger" onClick={showSidebar}>
         this
-      </a>
+      </button>
     </>
   );
 }

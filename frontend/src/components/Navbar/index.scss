@@ -11,5 +11,10 @@ header {
     border: 1px solid white;
     border-radius: 50%;
     padding: 1%;
+    color: var.$primary-color;
 
+    &:hover {
+        background-color: var.$secondary-color;
+        color: var.$third-color;
+    }
 }
