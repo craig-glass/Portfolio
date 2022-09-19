@@ -12,8 +12,10 @@ function App() {
     <main className="App">
       <Router>
         <Navbar />
-        <div className="mainpage">
+        <div>
           <About />
+          <br />
+          <br />
           <Routes>
             <Route path="/skills" element={<Skills />}></Route>
             <Route path="/contact" element={<Contact />}></Route>

@@ -1,3 +1,19 @@
-h1 {
-  color: #328cc1;
+.aboutContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20%;
+}
+.aboutContainer img {
+  border-radius: 50%;
+}
+
+.aboutText {
+  text-align: left;
+  width: 40%;
+  float: left;
+}
+.aboutText h1 {
+  color: #d9b310;
+  font-size: xx-large;
 }/*# sourceMappingURL=index.css.map */

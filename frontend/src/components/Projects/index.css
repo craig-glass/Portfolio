@@ -1,0 +1,16 @@
+.projectsContainer {
+  margin-top: 40%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  row-gap: 20px;
+  justify-items: center;
+}
+
+h2 {
+  color: #d9b310;
+}/*# sourceMappingURL=index.css.map */

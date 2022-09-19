@@ -1,17 +1,17 @@
 import React from "react";
 import "./index.css";
-import Alien from "../../images/Aliens.jpg";
+import Alien from "../../images/profilePic.jpg";
 
 export default function About() {
   return (
     <section id="about">
-      <div>
-        <div>
+      <div className="aboutContainer">
+        <div className="aboutText">
           <h1>
             Hi, I'm Craig.
             <br></br>
           </h1>
-          <p className="squashSides">
+          <p>
             I am a competent developer with experience implementing both the
             backend and frontend of applications. I understand all aspects of
             the software development lifecycle and I am comfortable working with
@@ -20,7 +20,7 @@ export default function About() {
             skills.
           </p>
         </div>
-        <div>
+        <div className="profilepic">
           <br></br>
           <img alt="hero" src={Alien} width={200} height={200}></img>
         </div>

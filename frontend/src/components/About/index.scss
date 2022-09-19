@@ -1,5 +1,24 @@
-@use '../../styles/variables' as v;
+@use '../../styles/variables' as var;
 
-h1 {
-    color: v.$secondary-color;
+.aboutContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20%;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+.aboutText {
+    text-align: left;
+    width: 40%;
+    float: left;
+
+    h1 {
+        color: var.$third-color;
+        font-size: xx-large;
+    }
+
 }

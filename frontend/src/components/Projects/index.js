@@ -1,4 +1,5 @@
-import { projects } from "../data/projectsData";
+import "./index.css";
+import { projects } from "../../data/projectsData";
 import { motion } from "framer-motion";
 
 export default function Projects() {
@@ -29,7 +30,7 @@ export default function Projects() {
       };
 
   return (
-    <div>
+    <div className="projectsContainer">
       <h1>Projects</h1>
       <br></br>
       <div className="grid-container">
