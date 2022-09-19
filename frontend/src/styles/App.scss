@@ -1,0 +1,111 @@
+$primary-color: #0b3c5d;
+$secondary-color: #328cc1;
+$third-color: #d9b310;
+$main-text: ivory;
+
+@mixin flexy($flexDir: row) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: $flexDir;
+
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.App {
+    background-color: black;
+    color: ivory;
+    margin: 0;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+}
+
+.navbar {
+    @include flexy(column);
+    background-color: $primary-color;
+    height: 100%;
+    padding: 10px;
+    position: fixed;
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: $third-color;
+            font-size: 1.03em;
+        }
+    }
+}
+
+.mainpage {
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 20px;
+    justify-items: center;
+}
+
+.gridbar {
+    display: grid;
+    width: 70%;
+    grid-auto-columns: 1fr;
+    row-gap: 20px;
+    list-style: none;
+    border: 2px solid #1d2731;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.gridbaritem {
+    display: flex;
+    justify-content: space-between;
+    background-color: $secondary-color;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.colorspan {
+    background-color: $third-color;
+    color: $primary-color;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.grid-item {
+    border: 2px solid $secondary-color;
+    border-radius: 10px;
+    width: 200px;
+    height: 400px;
+    padding: 10px;
+}
+
+.squashSides {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+img {
+    border-radius: 10px;
+
+    &:hover {
+        box-shadow: 0px 0px 60px $secondary-color;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

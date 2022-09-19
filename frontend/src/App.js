@@ -1,22 +1,18 @@
-import './App.css';
+import "./styles/App.css";
 import React from "react";
 import About from "./components/About";
-import Skills from './components/Skills';
-import Contact from './components/Contact';
-import Navbar from './components/Navbar';
-import Projects from './components/Projects';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-
-    <main className='App'>
+    <main className="App">
       <Router>
         <Navbar />
-        <br></br>
-        <br></br>
-        <div className='mainpage'>
+        <div className="mainpage">
           <About />
           <Routes>
             <Route path="/skills" element={<Skills />}></Route>
@@ -24,7 +20,6 @@ function App() {
             <Route path="/projects" element={<Projects />}></Route>
           </Routes>
         </div>
-
       </Router>
       <br></br>
       <br></br>
