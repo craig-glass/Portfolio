@@ -8,7 +8,7 @@ export default function About() {
       <div className="aboutContainer">
         <div className="aboutText">
           <h1>
-            Hi, I'm Craig.
+            Hi, I'm Craig
             <br></br>
           </h1>
           <p>
