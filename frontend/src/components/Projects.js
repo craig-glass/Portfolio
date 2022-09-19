@@ -10,6 +10,7 @@ export default function Projects() {
           scale: 1,
           borderRadius: ["50%", "10%"],
           transition: { type: "spring", bounce: 0.8, delay: 1 },
+          style: { borderShadow: "white" },
         },
         whileHover: {
           scale: 1,
