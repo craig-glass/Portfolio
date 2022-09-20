@@ -17,16 +17,22 @@ header {
         background-color: var.$secondary-color;
         color: var.$third-color;
     }
+
+    .line1,
+    .line2,
+    .line3 {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+
+        &:hover {
+            background-color: var.$third-color;
+        }
+    }
 }
 
-.line1,
-.line2,
-.line3 {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-}
+
 
 .change {
     .line1 {

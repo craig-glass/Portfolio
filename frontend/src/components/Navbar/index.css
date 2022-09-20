@@ -14,14 +14,18 @@ header {
   background-color: #328cc1;
   color: #d9b310;
 }
-
-.line1,
-.line2,
-.line3 {
+.hamburger .line1,
+.hamburger .line2,
+.hamburger .line3 {
   width: 35px;
   height: 5px;
   background-color: black;
   margin: 6px 0;
+}
+.hamburger .line1:hover,
+.hamburger .line2:hover,
+.hamburger .line3:hover {
+  background-color: #d9b310;
 }
 
 .change .line1 {
