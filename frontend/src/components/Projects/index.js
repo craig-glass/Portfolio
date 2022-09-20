@@ -11,7 +11,6 @@ export default function Projects() {
           scale: 1,
           borderRadius: ["50%", "10%"],
           transition: { type: "spring", bounce: 0.8, delay: 1 },
-          borderShadow: "0px 0px 50px #d9b310",
         },
         whileHover: {
           scale: 1,
@@ -20,12 +19,14 @@ export default function Projects() {
     : {
         whileInView: {
           scale: 1,
-          borderShadow: "0px 0px 60px #328cc1",
+          borderRadius: "50%",
+          boxShadow: "0px 0px 70px #328cc1",
         },
         whileHover: {
           scale: 1.2,
           borderRadius: ["50%", "10%"],
           transition: { type: "spring", bounce: 0.8 },
+          boxShadow: "0px 0px 70px #d9b310",
         },
       };
 
@@ -36,9 +37,7 @@ export default function Projects() {
       <div className="grid-container">
         {projects.map((project) => (
           <>
-            <motion.div
-            //   className="grid-item"
-            >
+            <motion.div>
               <h2 style={{ height: "50px" }}>{project.title}</h2>
               <div style={{ padding: "20%" }}>
                 <a href={project.link}>
@@ -50,14 +49,9 @@ export default function Projects() {
                     src={project.image}
                     width="100%"
                     height="100%"
-                    style={{ borderRadius: "50%" }}
                   ></motion.img>
                 </a>
               </div>
-
-              {/* <h4>{project.subtitle}</h4>
-              <p>{project.description}</p>
-               */}
             </motion.div>
           </>
         ))}
