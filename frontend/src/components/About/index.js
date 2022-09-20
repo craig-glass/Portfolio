@@ -1,12 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import "./index.css";
 import Alien from "../../images/profilePic.jpg";
+import { motion } from "framer-motion";
 
 export default function About() {
   return (
     <section id="about">
       <div className="aboutContainer">
         <div className="aboutText">
+          <motion.h1
+            animate={{ x: 0 }}
+            initial={{ x: 1000 }}
+            transition={{ type: "spring", duration: 3, bounce: 0.2 }}
+          >
+            G
+          </motion.h1>
           <h1>
             Hi, I'm Craig
             <br></br>
