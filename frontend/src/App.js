@@ -1,5 +1,5 @@
 import "./styles/App.css";
-import React, { useState } from "react";
+import React from "react";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";

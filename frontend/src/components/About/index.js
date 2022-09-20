@@ -8,15 +8,86 @@ export default function About() {
     <section id="about">
       <div className="aboutContainer">
         <div className="aboutText">
-          <motion.h1
-            animate={{ x: 0 }}
-            initial={{ x: 1000 }}
-            transition={{ type: "spring", duration: 3, bounce: 0.2 }}
-          >
-            G
-          </motion.h1>
           <h1>
-            Hi, I'm Craig
+            <motion.span
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{ duration: 2 }}
+            >
+              H
+            </motion.span>
+            <motion.span
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{ duration: 2.2, delay: 0.2 }}
+            >
+              i
+            </motion.span>
+            <motion.span
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{ duration: 2.4, delay: 0.4 }}
+            >
+              ,
+            </motion.span>
+            <span> </span>
+            <motion.span
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{ duration: 2.6, delay: 0.6 }}
+            >
+              I
+            </motion.span>
+            <motion.span
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{ duration: 2.8, delay: 0.8 }}
+            >
+              '
+            </motion.span>
+            <motion.span
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{ duration: 3, delay: 1 }}
+            >
+              m
+            </motion.span>
+            <span> </span>
+            <motion.span
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{ duration: 3.2, delay: 1.2 }}
+            >
+              C
+            </motion.span>
+            <motion.span
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{ duration: 3.4, delay: 1.4 }}
+            >
+              r
+            </motion.span>
+            <motion.span
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{ duration: 3.6, delay: 1.6 }}
+            >
+              a
+            </motion.span>
+            <motion.span
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{ duration: 3.8, delay: 1.8 }}
+            >
+              i
+            </motion.span>
+            <motion.span
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{ duration: 4, delay: 2 }}
+            >
+              g
+            </motion.span>
             <br></br>
           </h1>
           <p>
