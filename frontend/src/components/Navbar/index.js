@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { GiSkills } from "react-icons/gi";
+import { AiOutlineMail } from "react-icons/ai";
+import { FaProjectDiagram } from "react-icons/fa";
 
 export default function Navbar() {
   const variants = {
@@ -28,10 +30,10 @@ export default function Navbar() {
             <GiSkills style={{ width: 30, height: 30 }} />
           </Link>
           <Link to="/contact" onClick={showSidebar}>
-            Contact
+            <AiOutlineMail style={{ width: 30, height: 30 }} />
           </Link>
           <Link to="/projects" onClick={showSidebar}>
-            Projects
+            <FaProjectDiagram style={{ width: 30, heigth: 30 }} />
           </Link>
         </motion.header>
       </div>
