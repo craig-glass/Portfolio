@@ -2,6 +2,7 @@ import "./index.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { GiSkills } from "react-icons/gi";
 
 export default function Navbar() {
   const variants = {
@@ -24,7 +25,7 @@ export default function Navbar() {
           variants={variants}
         >
           <Link to="/skills" onClick={showSidebar}>
-            Skills
+            <GiSkills style={{ width: 30, height: 30 }} />
           </Link>
           <Link to="/contact" onClick={showSidebar}>
             Contact
