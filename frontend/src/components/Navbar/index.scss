@@ -1,8 +1,16 @@
 @use '../../styles/variables' as var;
+@import '../../styles/App.scss';
+
 
 header {
     margin-left: -5%;
     margin-top: -5%;
+
+    .socialIcons {
+        @include flexy(column);
+
+        height: 20%;
+    }
 }
 
 
@@ -31,7 +39,6 @@ header {
         }
     }
 }
-
 
 
 .change {
