@@ -102,6 +102,9 @@ header .socialIcons {
   flex-direction: column;
   height: 20%;
 }
+header .navbarProfilePicHome {
+  margin-top: -20px;
+}
 
 .hamburger {
   position: fixed;

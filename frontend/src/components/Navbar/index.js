@@ -8,6 +8,7 @@ import { FaProjectDiagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import Alien from "../../images/profilePic.jpg";
 
 export default function Navbar() {
   const variants = {
@@ -29,6 +30,17 @@ export default function Navbar() {
           animate={isOpen ? "open" : "closed"}
           variants={variants}
         >
+          <div className="navbarProfilePicHome">
+            <Link to="/" onClick={showSidebar}>
+              <img
+                src={Alien}
+                alt="home"
+                width="40"
+                height="40"
+                style={{ borderRadius: "50%" }}
+              />
+            </Link>
+          </div>
           <Link to="/skills" onClick={showSidebar}>
             <GiSkills style={{ width: 30, height: 30 }} />
           </Link>
