@@ -10,6 +10,9 @@
   row-gap: 20px;
   justify-items: center;
 }
+.grid-container img {
+  border-radius: 50%;
+}
 
 h2 {
   color: #d9b310;

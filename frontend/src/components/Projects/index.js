@@ -19,7 +19,6 @@ export default function Projects() {
     : {
         whileInView: {
           scale: 1,
-          borderRadius: "50%",
           boxShadow: "0px 0px 70px #328cc1",
         },
         whileHover: {
